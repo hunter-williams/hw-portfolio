@@ -1,0 +1,84 @@
+* {
+    border: 1px solid black
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgb(6, 6, 6);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 1%;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline;
+    width: 10%;
+    
+}
+
+#hero{
+    width: 100%;
+    background-color: tomato;
+}
+
+#hero section{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about{
+    width: 100%;
+    background-color: purple;
+}
+
+#about article{
+    text-align: center;
+}
+
+#work{
+    width: 100%;
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#work section{
+    width: 80%;
+    background-color: lightcoral;
+    margin: 0 auto;
+    flex: 1 0 0;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    
+}
+
+#firstimg{
+    width: 100%;
+}
+
+.gridimg{
+    width: 45%;
+    display: inline-block;
+    margin: 2.3%;
+}
+
+footer{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(6, 6, 6);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 1%;
+}
+
+footer ul li{
+    display: inline;
+    width: 10%;
+}
