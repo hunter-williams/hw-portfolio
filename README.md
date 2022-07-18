@@ -7,3 +7,4 @@ Youll find the first porject i did which is Horiseon, followed by imgs of my log
 7/14/2022 - set up wireframing and started css. 
 
 ![Wireframing Screenshot](https://github.com/hunter-williams/hw-portfolio/blob/master/assets/wireframe-portfolio.png)
+![Final Screenshot](./assets/hw-portfolio_index.html.png)
