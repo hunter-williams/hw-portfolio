@@ -1,5 +1,9 @@
+:root {
+    --theme-blue: rgb(23, 23, 146);
+}
+
 * {
-    border: 1px solid black
+    text-align: center;
 }
 
 nav{
@@ -7,32 +11,24 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    background-color: rgb(6, 6, 6);
-    color: rgb(255, 255, 255);
     align-items: center;
     padding: 1%;
     justify-content: space-between;
+    background-color: var(--theme-blue);
+    color: white;
 }
 
 nav ul li{
     display: inline;
     width: 10%;
-    
-}
-
-#hero{
-    width: 100%;
-    background-color: tomato;
-}
-
-#hero section{
-    margin: 0 auto;
-    text-align: center;
+    margin: 0 10px;
 }
 
 #about{
-    width: 100%;
-    background-color: purple;
+    width: 80%;
+    display: flex;
+    justify-content: left;
+    margin: 5%;
 }
 
 #about article{
@@ -41,14 +37,12 @@ nav ul li{
 
 #work{
     width: 100%;
-    background-color: green;
     display: flex;
     flex-wrap: wrap;
 }
 
 #work section{
     width: 80%;
-    background-color: lightcoral;
     margin: 0 auto;
     flex: 1 0 0;
     padding: 10px;
@@ -58,7 +52,7 @@ nav ul li{
 }
 
 #firstimg{
-    width: 100%;
+    width: 60%;
 }
 
 .gridimg{
@@ -72,10 +66,10 @@ footer{
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: rgb(6, 6, 6);
-    color: rgb(255, 255, 255);
     align-items: center;
     padding: 1%;
+    background-color: var(--theme-blue);
+    color: white;
 }
 
 footer ul li{
